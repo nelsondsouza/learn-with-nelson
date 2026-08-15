@@ -1,0 +1,6 @@
+flowchart LR
+    DISK["Workspace files on disk"] --> EX["VS Code Explorer"]
+    DISK --> TERM["Integrated terminal"]
+    EX --> EDIT["Editor"]
+    EDIT -->|"Save"| DISK
+    TERM -->|"Create / change files"| DISK

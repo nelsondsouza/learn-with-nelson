@@ -1,0 +1,8 @@
+flowchart TD
+    OPEN["Open downloaded / cloned folder"] --> SOURCE{"Trust source/authors?"}
+    SOURCE -->|"No / Unsure"| RESTRICT["Restricted Mode"]
+    SOURCE -->|"Yes, after review"| TRUST["Trust workspace"]
+    RESTRICT --> REVIEW["Review files, scripts, tasks, instructions"]
+    REVIEW --> DECIDE{"Confident now?"}
+    DECIDE -->|"No"| RESTRICT
+    DECIDE -->|"Yes"| TRUST
