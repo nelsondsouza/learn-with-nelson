@@ -1,0 +1,7 @@
+flowchart LR
+    P["👤 Person"] -->|"writes"| C["Source Code"]
+    C -->|"translated / interpreted"| S["Software"]
+    S -->|"runs on"| OS["Operating System"]
+    OS -->|"controls"| H["Hardware"]
+    H -->|"produces result"| O["Output"]
+    O --> P

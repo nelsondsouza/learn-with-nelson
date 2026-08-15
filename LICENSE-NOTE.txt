@@ -1,0 +1,2 @@
+This package does not overwrite your existing LICENSE file.
+Keep the LICENSE already present in your GitHub repository unless you intentionally choose to change it.

@@ -1,0 +1,12 @@
+sequenceDiagram
+    participant U as You
+    participant B as Browser
+    participant I as Internet
+    participant S as Web Server
+
+    U->>B: Enter website address
+    B->>I: Send request
+    I->>S: Deliver request
+    S->>I: Send response
+    I->>B: Deliver response
+    B->>U: Display webpage
