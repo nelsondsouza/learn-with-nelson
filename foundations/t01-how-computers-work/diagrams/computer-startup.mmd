@@ -1,0 +1,7 @@
+flowchart TD
+    POWER["Power on"] --> FW["Firmware starts"]
+    FW --> HW["Initialize/check hardware"]
+    HW --> BOOT["Select boot device"]
+    BOOT --> OS["Operating system boot begins"]
+    OS --> SERVICES["Initialize drivers and services"]
+    SERVICES --> LOGIN["Login / desktop environment"]

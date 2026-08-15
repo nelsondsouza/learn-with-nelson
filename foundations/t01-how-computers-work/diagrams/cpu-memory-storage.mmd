@@ -1,0 +1,5 @@
+flowchart LR
+    STORE["Storage<br/>Programs & Files<br/>Long-term"] -->|"load"| RAM["RAM<br/>Active Instructions & Data<br/>Temporary"]
+    RAM <-->|"working data"| CPU["CPU<br/>Executes Instructions"]
+    CPU --> RESULT["Results"]
+    RESULT -->|"save when required"| STORE

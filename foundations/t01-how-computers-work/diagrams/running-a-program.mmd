@@ -1,0 +1,8 @@
+flowchart TD
+    A["Launch application"] --> OS["Operating system receives request"]
+    OS --> LOCATE["Locate program on storage"]
+    LOCATE --> LOAD["Load required instructions/data into RAM"]
+    LOAD --> PROC["Create/manage running process"]
+    PROC --> CPU["Schedule CPU execution"]
+    CPU --> RUN["Application runs"]
+    RUN --> IO["Interact with devices, storage, network, and services"]

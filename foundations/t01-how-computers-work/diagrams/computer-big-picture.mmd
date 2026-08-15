@@ -1,0 +1,8 @@
+flowchart LR
+    IN["Input"] --> CPU["CPU<br/>Processing"]
+    CPU <--> RAM["RAM<br/>Working Memory"]
+    CPU <--> STORE["Storage<br/>SSD / HDD"]
+    CPU --> OUT["Output"]
+    OS["Operating System"] --- CPU
+    OS --- RAM
+    OS --- STORE
