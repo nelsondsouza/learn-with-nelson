@@ -1,0 +1,5 @@
+flowchart TD
+    ROOT["project/"] --> DATA["data/"]
+    ROOT --> SRC["src/"]
+    DATA --> SALES["sales.csv"]
+    SRC -. "cd ../data" .-> DATA
