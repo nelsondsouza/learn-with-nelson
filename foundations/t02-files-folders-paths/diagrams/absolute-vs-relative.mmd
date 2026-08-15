@@ -1,0 +1,7 @@
+flowchart TD
+    ROOT["project/"] --> README["README.md"]
+    ROOT --> DATA["data/"]
+    ROOT --> REPORTS["reports/"]
+    DATA --> SALES["sales.csv"]
+    REPORTS --> SUMMARY["summary.md"]
+    REPORTS -. "../data/sales.csv" .-> SALES
