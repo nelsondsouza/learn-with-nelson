@@ -1,0 +1,5 @@
+flowchart LR
+    WORK["Working Tree"] -->|"git add"| STAGE["Staging Area"]
+    STAGE -->|"git commit"| LOCAL["Local Git Repository"]
+    LOCAL -->|"git push"| REMOTE["GitHub Repository"]
+    REMOTE -->|"git pull"| LOCAL

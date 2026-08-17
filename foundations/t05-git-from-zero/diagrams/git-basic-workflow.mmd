@@ -1,0 +1,8 @@
+flowchart LR
+    EDIT["Edit"] --> STATUS1["git status"]
+    STATUS1 --> DIFF["git diff"]
+    DIFF --> ADD["git add"]
+    ADD --> STATUS2["git status"]
+    STATUS2 --> STAGED["git diff --staged"]
+    STAGED --> COMMIT["git commit"]
+    COMMIT --> LOG["git log"]

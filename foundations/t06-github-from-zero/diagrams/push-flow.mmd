@@ -1,0 +1,4 @@
+flowchart LR
+    COMMIT["Local commits"] --> PUSH["git push"]
+    PUSH --> ORIGIN["origin"]
+    ORIGIN --> GH["GitHub remote branch"]

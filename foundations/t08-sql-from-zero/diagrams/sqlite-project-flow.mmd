@@ -1,0 +1,5 @@
+flowchart LR
+    SQL["setup.sql"] --> CLI["sqlite3 CLI"]
+    CLI --> DB["learning.db"]
+    QUERY["queries.sql"] --> CLI
+    CLI --> RESULT["Query Results"]

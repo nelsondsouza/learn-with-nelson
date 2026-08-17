@@ -1,0 +1,7 @@
+flowchart TD
+    ERR["Python error"] --> LAST["Read final error line"]
+    LAST --> TYPE["Identify exception type"]
+    TYPE --> LINE["Inspect referenced file/line"]
+    LINE --> EXPLAIN["Explain problem"]
+    EXPLAIN --> CHANGE["Make one change"]
+    CHANGE --> RUN["Run again"]

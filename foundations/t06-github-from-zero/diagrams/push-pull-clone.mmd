@@ -1,0 +1,4 @@
+flowchart TD
+    LOCAL["Local repository"] -->|"push"| REMOTE["GitHub repository"]
+    REMOTE -->|"pull"| LOCAL
+    REMOTE -->|"clone"| NEWLOCAL["New local repository"]

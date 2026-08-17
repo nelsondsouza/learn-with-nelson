@@ -1,0 +1,5 @@
+flowchart LR
+    FROM["FROM<br/>Which table?"] --> WHERE["WHERE<br/>Which rows?"]
+    WHERE --> SELECT["SELECT<br/>Which expressions/columns?"]
+    SELECT --> ORDER["ORDER BY<br/>How sorted?"]
+    ORDER --> LIMIT["LIMIT<br/>How many?"]

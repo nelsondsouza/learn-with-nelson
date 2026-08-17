@@ -1,0 +1,5 @@
+flowchart LR
+    QUERY["SQL Query"] --> ENGINE["SQLite Engine"]
+    ENGINE --> TABLE["Table Data"]
+    TABLE --> FILTER["Select / Filter / Sort"]
+    FILTER --> RESULT["Result Set"]

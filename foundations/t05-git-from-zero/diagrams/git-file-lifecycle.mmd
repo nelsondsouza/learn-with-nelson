@@ -1,0 +1,6 @@
+flowchart LR
+    U["Untracked"] -->|"git add"| S["Staged"]
+    S -->|"git commit"| C["Committed"]
+    C -->|"edit file"| M["Modified"]
+    M -->|"git add"| S2["Staged again"]
+    S2 -->|"git commit"| C2["New commit"]

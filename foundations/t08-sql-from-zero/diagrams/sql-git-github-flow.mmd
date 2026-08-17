@@ -1,0 +1,7 @@
+flowchart LR
+    QUESTION["Question"] --> SQL["Write SQL"]
+    SQL --> RUN["Run Query"]
+    RUN --> RESULT["Inspect Result"]
+    RESULT --> REFINE["Refine Query"]
+    REFINE --> GIT["Git Commit"]
+    GIT --> GH["GitHub Push"]

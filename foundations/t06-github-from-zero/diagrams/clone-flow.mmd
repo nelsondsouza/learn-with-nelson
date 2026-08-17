@@ -1,0 +1,5 @@
+flowchart LR
+    GH["Existing GitHub repository"] -->|"git clone"| NEW["New local directory"]
+    NEW --> WORK["Working tree"]
+    NEW --> HISTORY["Downloaded Git history"]
+    NEW --> ORIGIN["origin configured"]
