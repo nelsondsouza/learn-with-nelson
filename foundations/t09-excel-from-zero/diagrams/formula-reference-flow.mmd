@@ -1,0 +1,5 @@
+flowchart LR
+    INPUT["Quantity + Unit Price"] --> FORMULA["=D2*E2"]
+    FORMULA --> FILL["Fill Down"]
+    FILL --> REL["Relative refs change"]
+    TAX["Tax Rate in B7"] --> ABS["$B$7 remains fixed"]

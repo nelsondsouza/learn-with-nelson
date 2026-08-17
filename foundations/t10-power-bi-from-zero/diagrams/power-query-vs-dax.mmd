@@ -1,0 +1,6 @@
+flowchart TB
+    S["Source Data"] --> PQ["Power Query"]
+    PQ --> T["Clean / Shape / Transform"]
+    T --> M["Semantic Model"]
+    M --> DAX["DAX Measures"]
+    DAX --> R["Dynamic Results in Report Context"]
