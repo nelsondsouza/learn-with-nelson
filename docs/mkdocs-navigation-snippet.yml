@@ -1,0 +1,15 @@
+# MkDocs navigation snippet
+
+- Roadmaps:
+    - Roadmaps Home: roadmaps/index.md
+    - Browse by Season:
+        - Season 1: roadmaps/seasons/season-01/index.md
+        - Season 2: roadmaps/seasons/season-02/index.md
+        - Season 3: roadmaps/seasons/season-03/index.md
+        - Season 4: roadmaps/seasons/season-04/index.md
+        - Season 5: roadmaps/seasons/season-05/index.md
+        - Season 6: roadmaps/seasons/season-06/index.md
+        - Season 7: roadmaps/seasons/season-07/index.md
+        - Season 8: roadmaps/seasons/season-08/index.md
+        - Season 9: roadmaps/seasons/season-09/index.md
+        - Season 10: roadmaps/seasons/season-10/index.md
